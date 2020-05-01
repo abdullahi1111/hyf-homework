@@ -1,5 +1,5 @@
 body {
-  animation: transitionIn 0, 50s;
+  animation: transitionIn 0, 20s;
 }
 @keyframes transitionIn {
   from {
