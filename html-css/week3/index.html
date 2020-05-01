@@ -14,10 +14,11 @@
         <div>
           <img src="new.png" />
           <ul>
-            <li><a href="index.html">shop</a></li>
-            <li><a href="company.html">Collections</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+            <li><a href="fourth.html.html">Payment</a></li>
+            <li><a href="second.html.html">Contact</a></li>
+            <li><a href="third.html.html">Items</a></li>
+            <li><a href="index.html">About you</a></li> 
+            </ul>
         </div>
         <h1>
           Sign up to yourcustomtailor.com
@@ -31,10 +32,10 @@
           reach you?
         </p>
         <div class="email-phone">
-          <label for="cardholder">Email</label>
-          <input type="text" id="email" placeholder="Your email" />
-          <label for="cardholder">Phone</label>
-          <input type="text" id="email" placeholder="Phone number" />
+          <label for="cardholder">First name</label>
+          <input type="text" id="email" placeholder="First name" />
+          <label for="cardholder">Last name</label>
+          <input type="text" id="email" placeholder="Last name" />
         </div>
         <div class="email-phone">
           <label for="date">Country</label>
@@ -300,7 +301,7 @@
         <div class="email-phone">
           <label for="cardholder">Address</label>
           <input type="address" id="email" placeholder="streat,no,city" />
-          <label for="cardholder">Postcode</label>
+          <label for="cardholder">Post code</label>
           <input type="text" id="email" placeholder="0000"/>
         </div>
         <div class="text-area">
@@ -325,16 +326,33 @@
             out a separate shipping address.
           </p>
           <div>
-            <label for="shipment" >
-              <input type="checkbox" onchange="showHide(this.checked)" id="checked" class="visually-hidden" />
-              Shipping address
-            </label>
+            <input type="checkbox" id="check-box" />
+        ​
+        <div class="control-me">
+          <label>First name</label>
+          <input type="text" required />
+          <label>Last name</label>
+          <input type="text" required />
+          <div class="control-me">
+            <label for="date">Country</label>
+            <select id="country" name="country">
+              <option value="Afganistan">Afghanistan</option>
+              <option value="Albania">Albania</option>
+              <option value="Algeria">Algeria</option>
+              <option value="American Samoa">American Samoa</option>
+              <option value="Andorra">Andorra</option>
+              <option value="Angola">Angola</option>
+              </select>
           </div>
-          <div class="shipping">
-            <label for="cardholder">Email</label>
-          <input type="text" id="email" placeholder="Your email" />
-          <label for="cardholder">Phone</label>
-          <input type="text" id="email" placeholder="Phone number" />
+          <div class="control-me">
+            <label>Address</label>
+            <input type="text" required />
+            <label>Post Code</label>
+            <input type="text" required />
+
+            </div>
+        </div>
+          
           </div>
         
         <div>

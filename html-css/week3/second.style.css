@@ -18,13 +18,12 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 950px;
-  height: 1250px;
+  height: 940px;
   background-color: #ccc;
   box-shadow: 0 2px 1px;
   border: 1px solid rgb(46, 0, 155);
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
 }
 @media screen and (min-width: 640px) {
   .checkout-form {
@@ -39,6 +38,7 @@ body {
 }
 .checkout-body img {
   width: 25%;
+  margin-bottom: 100px;
 }
 ul {
   float: right;
@@ -76,6 +76,7 @@ progress {
 .email-phone {
   margin: 20px;
   padding: 20px;
+  padding-top: 40px;
 }
 .email-phone input {
   height: 30px;

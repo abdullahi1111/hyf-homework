@@ -17,14 +17,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 950px;
-  height: 1450px;
+  height: 1750px;
   background-color: #ccc;
   border: #4caf50;
   box-shadow: 0 2px 1px;
   border: 1px solid rgb(46, 0, 155);
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 700px;
 }
 @media screen and (min-width: 640px) {
   .checkout-form {
@@ -52,7 +52,7 @@ li {
   list-style: none;
 }
 ul a {
-  color: rgb(0, 44, 241);
+  color: #4caf50;
   padding: 0 10px;
   text-decoration: none;
   font-weight: bold;
@@ -77,13 +77,16 @@ progress {
 }
 .email-phone {
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 .email-phone input {
   height: 30px;
 }
 .email-phone label {
   height: 40px;
+}
+.email-phone select {
+  margin: 10px;
 }
 #email {
   margin-right: 50px;
@@ -96,10 +99,7 @@ progress {
   background-color: #e2e2db;
   height: 30px;
 }
-.email-phone {
-  margin-right: 40px;
-  padding-right: 20px;
-}
+
 .password {
   padding-top: 20px;
 }
@@ -128,10 +128,30 @@ progress {
 .shipping {
   margin-top: 20px;
   padding: 20px;
+  display: block;
 }
 .shipping input {
   height: 30px;
 }
+#check-box:checked ~ .control-me {
+  display: none;
+}
+.checked-me label {
+  height: 40px;
+}
+.control-me input {
+  height: 30px;
+}
+.control-me input {
+  margin-right: 50px;
+  padding-right: 50px;
+  border-radius: 15px;
+  background-color: #e2e2db;
+}
+.control-me select {
+  margin: 30px;
+}
+
 .btn {
   background-color: #4caf50;
   color: white;
@@ -143,4 +163,5 @@ progress {
   cursor: pointer;
   font-size: 17px;
   float: right;
+  margin-top: 100px;
 }
