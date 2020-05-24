@@ -1,4 +1,4 @@
-//Flight booking fullname function
+//Flight booking fullname
 
 function getFullName(firstname, surname) {
   return firstname + " " + surname;
