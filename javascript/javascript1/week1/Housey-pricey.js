@@ -1,9 +1,9 @@
 // Peter's house measuremensts
 
-let houseWidth = 8;
-let houseDepth = 10;
-let houseHeight = 10;
-let gardenSizeInM2 = 100;
+const houseWidth = 8;
+const houseDepth = 10;
+const houseHeight = 10;
+const gardenSizeInM2 = 100;
 
 //Peter's house cost
 let peterHouseCost = 2500000;
