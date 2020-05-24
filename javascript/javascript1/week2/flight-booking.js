@@ -1,25 +1,22 @@
 //Flight booking fullname
 
-function getFullName(firstname, surname) {
-  return firstname + " " + surname;
+function getFullName(firstname, surname, useFormalName) {
+  if (useFormalName === true) {
+    return "Lord" + " " + firstname + " " + surname;
+  } else {
+    return firstname + " " + surname;
+  }
 }
-
 const fullname = getFullName("Abdullahi", "Yussef");
+console.log(fullname);
 
-console.log(fullname); //returns AbdullahiYussef
+/**
+ * two variables fullname1 and fullname2
+ * these two variables are assigned to the return of calling the getFullname function.
+ *  */
 
-const fullname1 = getFullName("Abdullahi", "Yussef");
-const fullname2 = getFullName("Abdullahi", "Yussef");
+const fullname1 = getFullName("Abdullahi", "Yussef", true);
+const fullname2 = getFullName("Abdullahi", "Yussef", false);
 
 console.log(fullname1);
 console.log(fullname2);
-
-//formal fullname
-function getFullName(firstname, surname, useFormalName = true) {
-  if (useFormalName == true) {
-    return "Lord" + firstname + surname;
-  } else {
-    return firstname + surname;
-  }
-}
-console.log(getFullName("Abdullahi", "Yussef"));
