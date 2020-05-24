@@ -1,4 +1,4 @@
-//Flight booking fullname
+//Flight booking fullname function
 
 function getFullName(firstname, surname, useFormalName) {
   if (useFormalName === true) {
