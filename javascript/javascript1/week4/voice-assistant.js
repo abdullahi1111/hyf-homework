@@ -1,4 +1,4 @@
-//Voice assistant
+//Voice assistant app
 let myName = " Benjamin";
 var date = new Date();
 var localDate = date.toLocaleString();
