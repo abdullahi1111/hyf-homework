@@ -1,4 +1,4 @@
-// Peter's house measuremensts
+// Peter's house measuremensts.
 
 const houseWidth = 8;
 const houseDepth = 10;
