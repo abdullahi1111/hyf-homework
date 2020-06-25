@@ -1,4 +1,4 @@
-//A future age calculator
+//A future age calculator.
 
 const yearOfBirth = 1993;
 const yearFuture = 2027;
