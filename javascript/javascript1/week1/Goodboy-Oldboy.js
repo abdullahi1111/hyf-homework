@@ -1,4 +1,4 @@
-//A dog age calculator
+//A dog age calculator.
 
 const dogYearOfBirth = 2019;
 const dogYearFuture = 2027;
