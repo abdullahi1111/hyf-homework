@@ -1,4 +1,4 @@
-// Startup name generator
+// Startup name generator.
 const firstWords = [
   "incredible",
   "fine",
