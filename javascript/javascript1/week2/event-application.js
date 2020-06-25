@@ -14,6 +14,9 @@ function getEventWeekday(howmanydays) {
   const currentDate = new Date();
   const day = currentDate.getDay();
   const a = (day + howmanydays) % 7;
+  const d = new Date();
+  const n = d.getDay();
+  const a = (n + howmanydays) % 7;
   //compute the index value bassed on n and howmanydays.
   console.log(a);
   return "The event is going to be held: " + weekDays[a];
