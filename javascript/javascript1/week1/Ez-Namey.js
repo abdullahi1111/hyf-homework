@@ -1,5 +1,5 @@
-// Startup name generator
-var firstWords = [
+// Startup name generator.
+const firstWords = [
   "incredible",
   "fine",
   "good",
@@ -11,7 +11,7 @@ var firstWords = [
   "together",
   "ambitious",
 ];
-var secondWords = [
+const secondWords = [
   "safe",
   "magical",
   "truthful",
@@ -23,9 +23,9 @@ var secondWords = [
   "super",
   "awesome",
 ];
-var randomNumber = Math.floor(Math.random() * 10) + 0; //Given formula.
-var startupFirstName = firstWords[randomNumber];
-var startupLastName = secondWords[randomNumber];
+const randomNumber = Math.floor(Math.random() * 10) + 0; //Given formula.
+const startupFirstName = firstWords[randomNumber];
+const startupLastName = secondWords[randomNumber];
 
 console.log(startupFirstName);
 console.log(startupLastName);
